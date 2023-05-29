@@ -10,11 +10,6 @@ builder.Services.AddScoped<IUsuario, UsuarioService>();
 builder.Services.AddScoped<IUsuarioException, UsuarioException>();
 builder.Services.AddScoped<IPaginacaoException, PaginacaoException>();
 
-// // Docker migrations config
-// var host = CreateHostBuilder(args).Build();
-
-
-
 // AddAutoMapper
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
@@ -42,13 +37,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-// if (app.Environment.IsDevelopment())
-// {
-//     app.UseSwagger();
-//     app.UseSwaggerUI();
-// }
 
 app.UseSwagger();
 app.UseSwaggerUI();
