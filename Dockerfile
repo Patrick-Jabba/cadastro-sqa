@@ -14,7 +14,7 @@ RUN cd cadastroSqa && \
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine
 
-ENV CONNECTION_STRINGS="user ID=postgres;Password=iohtk67DROME;Host=db;Port=5432;Database=cadastrosqadb;"
+ENV CONNECTION_STRINGS="user ID=postgres;Password=minhasenhasecreta;Host=db;Port=5432;Database=cadastrosqadb;"
 
 WORKDIR /app
 
