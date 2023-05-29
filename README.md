@@ -4,6 +4,8 @@
 ## 🐋 Rodando através do docker:
 ### Após clonar o projeto na raiz do repositório dê o comando :
 #### • docker compose up --build, ou docker-compose up --build
+#### Porta backend: http://localhost:8080/swagger/index.html
+#### Porta frontend: http://localhost:5173/
 
 ## 💻 Localmente: 
 ### No diretório back-cadastroSqa/cadastroSqa dê o comando:
