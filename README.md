@@ -1,8 +1,6 @@
 # cadastro-sqa
 ## Repositório para o projeto avaliação do processo seletivo time SQA na Alterdata Software
 
-## O projeto consiste em criar um cadastro de pessoas, respeitando o mockup fornecido.
-
 ## 🐋 Rodando através do docker:
 ### Após clonar o projeto na raiz do repositório dê o comando :
 #### • docker compose up --build, ou docker-compose up --build
