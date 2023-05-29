@@ -4,13 +4,13 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_DB: cadastrosqadb
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: iohtk67DROME
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_NAME}
     volumes:
       - db-data:/var/lib/postgresql/data
     ports:
-      - 5432:5432 #Porta que o banco usará
+      - ${DB_PORT}:${DB_PORT}
     networks:
       - app-network
 
