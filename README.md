@@ -9,7 +9,7 @@
 ### No diretório back-cadastroSqa/cadastroSqa dê o comando:
 #### • dotnet restore 
 
-#### • No mesmo diretório no arquivo Program.cs descomente a linha 27 e comente a linha 29, e gere através do dotnet secrets a sua connectionString com o banco postgres lembrando de passar na chave o nome da sua conexão, no caso "CONEXAODB" e no valor a connectionstring em si.
+#### • No mesmo diretório no arquivo Program.cs descomente a linha 22 e comente a linha 24, e gere através do dotnet secrets a sua connectionString com o banco postgres lembrando de passar na chave o nome da sua conexão, no caso "CONEXAODB" e no valor a connectionstring em si.
 
 #### • Depois o comando dotnet watch run
 
