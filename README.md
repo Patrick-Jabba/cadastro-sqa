@@ -18,8 +18,8 @@
 ### Para o frontend local no diretório fe-cadastroSqa dê o comando:
 #### • npm install e após npm run dev 
 
-### Para os testes do backend :
+### Para os testes do backend, no diretório back-cadastroSqa/cadastroSqa.Tests :
 #### • dotnet test
 
-### Para os testes no frontend :
+### Para os testes no frontend no diretório  fe-cadastroSqa :
 #### • npm run test
